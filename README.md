@@ -1,4 +1,25 @@
 # dynamictables
 Created as part of an assessment for a Web Dev Internship
+
 <a href="https://dynamictables.onrender.com/">\(View Live Version\)</a>
 <a href="https://github.com/itsmesrishti/internshipAssignment/tree/main">\(Link to Solution\)</a>
+
+&nbsp;
+## Challenge:
+Create a table in which: 
+- any row can be deleted by clicking on the cross button
+- can add rows one by one by clicking on the Add button or entering a value to add as many rows as one wants
+- can easily add new column(s)
+- submit data by clicking on Save button
+- validate data using AJAX (_not yet done; HTML validation done_)
+- submit form using AJAX (_not yet done_)
+
+&nbsp;
+## Built With
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- 
+
+&nbsp;
+## Acknowledgements
+- [Render](https://render.com/) for hosting
