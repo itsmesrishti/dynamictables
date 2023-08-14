@@ -51,11 +51,11 @@ table thead th {
 }
 
 #add-grp {
-    bottom: 13rem;
+    top: 33rem;
 }
 
 #save-btn {
-    bottom: 9rem;
+    top: 38rem;
     background-color: #68cd73;
 }
 
@@ -93,4 +93,17 @@ input::placeholder {
 
 input:invalid {
     border: 2px solid red;
+}
+
+/* MEDIA Query */
+@media only screen and (max-height: 667px) {
+    h1, form {
+        margin-top: 3rem;
+    }
+    #add-grp {
+        top: 28rem;
+    }
+    #save-btn {
+        top: 32rem;
+    }
 }
