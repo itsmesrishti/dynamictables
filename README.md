@@ -18,7 +18,8 @@ Create a table in which:
 ## Built With
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- 
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Bootstrap](https://getbootstrap.com/)
 
 &nbsp;
 ## Acknowledgements
