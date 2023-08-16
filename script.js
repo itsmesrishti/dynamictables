@@ -39,7 +39,7 @@ document.getElementById("rowsWanted").addEventListener('focusout', function() {
     // checks if the input field is empty or value was entered
     if (rowsWanted != "") {
         // calls the function as many times as the value that was entered
-        for (var i = 0; i < rowsWanted-1; i++) {
+        for (var i = 0; i < (rowsWanted-1); i++) {
             addBox();
         }
     };
