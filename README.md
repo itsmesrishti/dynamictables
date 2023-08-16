@@ -13,7 +13,7 @@ Create a table in which:
 - submit data by clicking on Save button
 - validate data using AJAX (_not yet done; HTML validation done_)
 - submit form using AJAX (_not yet done_)
-- use a Bootstrap or Foundation
+- use Bootstrap or Foundation
 - should be responsive
 
 &nbsp;
