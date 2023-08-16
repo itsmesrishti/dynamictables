@@ -8,7 +8,7 @@ Created as part of an assessment for a Web Dev Internship
 ## Challenge:
 Create a table in which: 
 - any row can be deleted by clicking on the cross button
-- can add rows one by one by clicking on the Add button or entering a value to add as many rows as one wants (_buggy; working on it_)
+- can add rows one by one by clicking on the Add button or entering a value to add as many rows as one wants
 - can easily add new column(s)
 - submit data by clicking on Save button
 - validate data using AJAX (_not yet done; HTML validation done_)
