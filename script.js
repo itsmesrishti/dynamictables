@@ -44,3 +44,26 @@ document.getElementById("rowsWanted").addEventListener('focusout', function() {
         }
     };
 });
+
+
+// SUBMIT DATA USING AJAX
+$("#save-btn").click(function(e) {
+    // to prevent default behaviour of input type submit
+    e.preventDefault();
+
+    var form = $("#form");
+    var url = form.attr('action');
+    $.ajax({
+        type: "POST",
+        url: url,
+        data: form.serialize(),
+        success: function(data) {
+            // Ajax call completed successfully
+            alert("Form Submited Successfully");
+        },
+        error: function(data) {
+            // Some error in ajax call
+            alert("some Error");
+        }
+    });
+});
