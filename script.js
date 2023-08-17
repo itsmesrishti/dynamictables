@@ -47,23 +47,21 @@ document.getElementById("rowsWanted").addEventListener('focusout', function() {
 
 
 // SUBMIT DATA USING AJAX
-$("#save-btn").click(function(e) {
-    // to prevent default behaviour of input type submit
+$("#form").submit(function(e){
+    // prevent default form submission
     e.preventDefault();
 
-    var form = $("#form");
-    var url = form.attr('action');
+    // use ajax function to send a POST request
     $.ajax({
-        type: "POST",
-        url: url,
-        data: form.serialize(),
-        success: function(data) {
-            // Ajax call completed successfully
-            alert("Form Submited Successfully");
+        url: "https://reqres.in/api/users", 
+        data: $("#form").serialize(), 
+        type: "POST", 
+        dataType: 'json',
+        success: function (e) {
+            alert('Form submitted successfully!');
         },
-        error: function(data) {
-            // Some error in ajax call
-            alert("some Error");
+        error:function(e){
+            alert('Error occurred! Form not submitted!');
         }
     });
 });
