@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -26,14 +27,14 @@
                 </tr>
             </thead>
             <tbody id="table-content">
-                <tr class="table-row" name="data">
+                <tr class="table-row">
                     <th scope="row"><div class="delete">x</div></th>
                     <td><input type="number" name="userID"></td>
                     <td><input type="text" name="userName" pattern="[a-zA-Z'\- ]{2,}"></td>
                     <td><input type="email" name="userEmail"></td>
                     <td><input type="tel" name="userPhone" pattern="[0-9]{10}" placeholder="format: 0123456789"></td>
                 </tr>
-                <tr class="table-row" name="data">
+                <tr class="table-row">
                     <th scope="row"><div class="delete">x</div></th>
                     <td><input type="number" name="userID"></td>
                     <td><input type="text" name="userName" pattern="[a-zA-Z'\- ]{2,}"></td>
@@ -62,13 +63,15 @@
             </button>
             <input type="number" id="rowsWanted" placeholder="number of rows" min="1">
         </div>
-        <button type="submit" id="save-btn" class="btn">Save</button>
+        <input type="submit" id="save-btn" class="btn" value="Save">
     </form>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous">
     </script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
     <script src="/script.js"></script>
 
